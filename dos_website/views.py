@@ -7,11 +7,9 @@ from .forms import TodoForm, QuizForm
 from .models import Todo, Perfume
 from django.utils import timezone
 from django.contrib.auth.decorators import login_required
-import json
 from dos_website import config
 from django.views.generic import ListView
 from django.http import JsonResponse
-import pandas as pd
 
 
 def home(request):
