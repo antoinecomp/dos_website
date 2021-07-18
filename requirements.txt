@@ -8,3 +8,4 @@ six==1.15.0
 SQLAlchemy==1.4.17
 sqlparse==0.4.1
 gunicorn
+pillow
